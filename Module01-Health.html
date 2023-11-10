@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="150x150" href="images/favicon/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="images/favicon/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<!--Семантический блок Header -->
+    <header>
+        <!-- Блок выравнивания контента -->
+        <div class="container">
+            <!-- Блок Header -->
+            <div class="header">
+                <div class="header-flex">
+                    <a href="Module01-Health.html#" class="header-logo"></a>
+                    <div class="header-burger">
+                        <button class="burger" onclick="openModal()"></button>
+                    </div>
+                <nav>
+                    <ul class="header-nav">
+                        <li><a href="Module01-Health.html#occurrence" class="occurrence-smooth">Мероприятия</a></li>
+                        <li><a href="Module01-Health.html#window" class="window-smooth">Расписание</a></li>
+                        <li><a href="Module01-Health.html#info" class="info-smooth">О&nbsp;компании</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <ul class="header-links">
+                    <li><a href="Module01-Health.html#" target="_blank" class="inst"></a></li>
+                    <li><a href="Module01-Health.html#" target="_blank" class="fb"></a></li>
+                </ul>
+            </div>  
+        </div>
+    </header>
+<!-- Блок контент -->
+        <div class="content">
+            <div class="container">
+                <div class="main">
+                    <div class="main-text">
+                        <h1 class="main-title">онлайн&nbsp;тренировки любой&nbsp;сложности</h1>
+                        <span>&gt; 15 тренировок</span>
+                        <div class="description">
+                        <p class="description-text">в области спортивной физиологии и нутрициологии</p>
+                        <a href="Module01-Health.html#occurrence" class="main-link">Узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="visual">
+                        <div class="health"></div>
+                        <img src="images/girl.png" alt="girl">
+                    </div>
+                    <div class="visual360">
+                        <img src="images/girlbig.png" alt="girl">
+                    </div>
+                    <a href="Module01-Health.html#occurrence" class="arrow"></a>
+                </div>
+            </div>
+        </div>
+<!-- Главный блок -->
+    <main>
+        <!-- Блок секция -->
+        <section class="occurrence" id="occurrence">
+            <div class="container">
+                <h2 class="occurrence-title">Ближайшие события</h2>
+                <div class="occurrence-grid">
+                    <div class="occurrence-grid-run">
+                        <div class="gradient">
+                            <div class="occurrence-grid-box">
+                                <span class="occurrence-grid-time">29.06 - 4.07</span>
+                                <h3 class="occurrence-grid-title">Марафон выносливости</h3>
+                                <button type="button" class="occurrence-grid-btn">
+                                    <span class="occurrence-btn-text">записаться</span>
+                                </button>
+                            </div>
+                            <div class="occurrence-text">
+                                <span class="occurrence-grid-text">марафон</span>
+                                <a href="Module01-Health.html#" class="occurrence-grid-plus">
+                                    <img src="images/add.svg" alt="записаться">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="occurrence-grid-trainer">
+                        <div class="gradient">
+                            <div class="occurrence-grid-box">
+                                <span class="occurrence-grid-time">9.07</span>
+                                <h3 class="occurrence-grid-title">Как стать тренером?</h3>
+                                <button type="button" class="occurrence-grid-btn">
+                                    <span class="occurrence-btn-text">записаться</span>
+                                </button>
+                            </div>
+                            <div class="occurrence-text">
+                                <span class="occurrence-grid-text occurrence-grid-plus">вебинар</span>
+                                    <img src="images/add.svg" alt="записаться">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="occurrence-grid-yoga">
+                        <div class="gradient">
+                            <div class="occurrence-grid-box">
+                                <span class="occurrence-grid-time">15.07</span>
+                                <h3 class="occurrence-grid-title">Йога, как стиль жизни</h3>
+                                <button type="button" class="occurrence-grid-btn">
+                                    <span class="occurrence-btn-text">записаться</span>
+                                </button>
+                            </div>
+                            <div class="occurrence-text">
+                                <span class="occurrence-grid-text">вебинар</span>
+                                <a href="Module01-Health.html#" class="occurrence-grid-plus">
+                                    <img src="images/add.svg" alt="записаться">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Блок окно -->
+        <section class="window" id="window">
+            <div class="container">
+                <div class="window-header">
+                    <h2 class="window-title">Расписание тренировок</h2>
+                    <h2 class="window-title-time">22 - 28 июня</h2>
+                </div>
+                <div class="window-grid">
+                    <div class="window-grid-body">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">22 июня, 10:00</p>
+                            <img src="images/icons/body.svg" alt="Функциональный тренинг" class="body">
+                            <h3 class="window-grid-title">Функциональный тренинг</h3>
+                        </div> 
+                    </div>
+                    <div class="window-grid-jump">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">23 июня, 10:00</p>
+                            <img src="images/icons/jump.svg" alt="Силовой микс" class="jump">
+                            <h3 class="window-grid-title">Силовой микс</h3>
+                        </div>
+                    </div>
+                    <div class="window-grid-bottle">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">24 июня, 10:00</p>
+                            <img src="images/icons/bottle.svg" alt="Body sculpt" class="bottle">
+                            <h3 class="window-grid-title">Body sculpt</h3>
+                        </div>
+                    </div>
+                    <div class="window-grid-heart">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">25 июня, 11:00</p>
+                            <img src="images/icons/heart.svg" alt="Дыхательные практики" class="heart">
+                            <h3 class="window-grid-title">Дыхательные практики</h3>
+                        </div>
+                    </div>
+                    <div class="window-grid-dumbbell">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">26 июня, 11:00</p>
+                            <img src="images/icons/dumbbell.svg" alt="L.A.B." class="dumbbell">
+                            <h3 class="window-grid-title">L.A.B.</h3>
+                        </div>
+                    </div>
+                    <div class="window-grid-weight">
+                        <div class="window-grid-item">
+                            <p class="window-grid-time">27 июня, 10:00</p>
+                            <img src="images/icons/weight.svg" alt="Комплексная разминка" class="weight">
+                            <h3 class="window-grid-title">Комплексная разминка</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Секция успех -->
+        <section class="success">
+            <div class="container">
+                <div class="success-header">
+                    <div class="success-header-item"></div>
+                    <h2 class="success-title">Подпишитесь на рассылку</h2>
+                </div>
+                <div class="success-email-agreement">
+                    <div class="success-box">
+                        <input type="email" placeholder="Ваш e-mail" class="input-email">
+                        <div class="agreement">
+                            <input type="checkbox" id="01" class="checkbox">
+                            <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop" target="_blank">персональных данных</a></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="success-btn">
+                        <span class="success-btn-text">подписаться</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Секция информации -->
+        <section class="info" id="info">
+            <div class="container">
+                <div class="info-flex-image">
+                    <div class="info-item">
+                        <h2>О компании</h2>
+                        <p class="info-text">Наша компания является одной из&nbsp;немногих, кто&nbsp;предлагает фитнес услуги онлайн! Оставайтесь&nbsp;с&nbsp;нами и&nbsp;вы&nbsp;сами увидите, что мы проводим не&nbsp;только&nbsp;онлайн-тренировки.</p>
+                        <button type="button" class="info-btn">
+                            <span class="info-btn-text">записаться</span>
+                        </button>
+                    </div>
+                    <div class="info-image"></div>
+                </div>
+                <div class="info-flex">
+                    <div class="info-item">
+                        <h3>Экономия времени</h3>
+                        <p class="info-description">Не нужно тратить время на&nbsp;дорогу</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Индивидуальный подход</h3>
+                        <p class="info-description">Внимание тренера пренадлежит только вам</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Экономия денег</h3>
+                        <p class="info-description">Средняя цена одной тренировки&nbsp;-&nbsp;700₽</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Опытный персонал</h3>
+                        <p class="info-description">Стаж работы у наших тренеров от 5 лет</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- Блок подвала сайта -->
+    <footer>
+        <div class="container">
+            <div class="header">
+                <div class="header-flex">
+                    <a href="Module01-Health.html#" class="header-logo"></a>
+                <nav>
+                    <ul class="header-nav">
+                        <li><a href="Module01-Health.html#occurrence" class="occurrence-smooth">Мероприятия</a></li>
+                        <li><a href="Module01-Health.html#window" class="window-smooth">Расписание</a></li>
+                        <li><a href="Module01-Health.html#info" class="info-smooth">О&nbsp;компании</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-mail">
+                        <div class="footer-item"></div>
+                        <a href="mailto:info@freefit.com" class="footer-mail-link">info@freefit.com</a>
+                    </div>
+                    <ul class="header-links">
+                        <li><a href="Module01-Health.html#" target="_blank" class="inst"></a></li>
+                        <li><a href="Module01-Health.html#" target="_blank" class="fb"></a></li>
+                    </ul>
+                </div>
+            </div>  
+            <div class="footer-description">
+                <p>© 2023, Все права защищены</p>
+                <p>Сделано в рамках курса учебной платформы <a href="https://frontendblok.com/" target="_blank">Annblok</a></p>
+            </div>
+        </div>
+    </footer>
+<!-- Блок модального окна -->
+    <div class="modal" id="modal">
+        <div class="header-flex">
+            <a href="Module01-Health.html#" class="header-logo"></a>
+            <button class="burger-close" onclick="closeModal()"></button>
+            <nav>
+                <ul class="header-nav">
+                    <li><a href="https://github.com/Mullagaliyev/Module01-Health.git#occurrence" class="occurrence-smooth">Мероприятия</a></li>
+                    <li><a href="https://github.com/Mullagaliyev/Module01-Health.git#window" class="window-smooth">Расписание</a></li>
+                    <li><a href="https://github.com/Mullagaliyev/Module01-Health.git#info" class="info-smooth">О компании</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="header-links">
+            <li><a href="https://github.com/Mullagaliyev/Module01-Health.git#" target="_blank" class="inst"></a></li>
+            <li><a href="https://github.com/Mullagaliyev/Module01-Health.git#" target="_blank" class="fb"></a></li>
+        </ul>
+    </div>
+<!-- Скрипт JavaScript -->
+    <script>
+        //Скролл
+        const links = document.querySelectorAll(".occurrence-smooth, .window-smooth, .info-smooth");
+        for (const link of links) {
+            link.addEventListener("click", clickHandler);
+        }
+        function clickHandler(e) {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+
+            document.querySelector(href).scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        //Модальное окно
+        function openModal() {
+                document.getElementById("modal").style.top = "0px";
+            }
+        function closeModal() {
+            document.getElementById("modal").style.top = "-400px";
+        }
+    </script>
+</body>
+</html>
